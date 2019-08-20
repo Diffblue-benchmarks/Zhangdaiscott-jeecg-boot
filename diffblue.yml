@@ -177,11 +177,80 @@ phases:
 units:
  - target:
    - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/query/QueryGenerator.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/query/QueryGenerator.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/SqlInjectionUtil.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/SqlInjectionUtil.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/SpringContextUtils.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/SpringContextUtils.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/query/QueryCondition.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/query/QueryCondition.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/util/JeecgDataAutorUtils.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/util/JeecgDataAutorUtils.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/vo/SysUserCacheInfo.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/vo/SysUserCacheInfo.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/vo/LoginUser.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/vo/LoginUser.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/modules/system/entity/SysPermissionDataRule.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/modules/system/entity/SysPermissionDataRule.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/DateUtils.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/DateUtils.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/query/QueryRuleEnum.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/query/QueryRuleEnum.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/system/util/JwtUtil.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/system/util/JwtUtil.java
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
      file: org/jeecg/common/util/oConvertUtils.class
      sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
      sourceFile: org/jeecg/common/util/oConvertUtils.java
  - target:
    - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/YouBianCodeUtil.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/YouBianCodeUtil.java
+ - target:
+   - dir: jeecg-boot/jeecg-boot-module-system/target/classes
+     file: org/jeecg/modules/system/entity/SysPermission.class
+     sourceDir: jeecg-boot/jeecg-boot-module-system/src/main/java
+     sourceFile: org/jeecg/modules/system/entity/SysPermission.java
+ - target:
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/MyClassLoader.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/MyClassLoader.java
+ - target:
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
      file: org/jeecg/common/util/PasswordUtil.class
      sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
      sourceFile: org/jeecg/common/util/PasswordUtil.java
+ - target:
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/oConvertUtils.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/oConvertUtils.java
+ - target:
+   - dir: jeecg-boot/jeecg-boot-base-common/target/classes
+     file: org/jeecg/common/util/DateUtils.class
+     sourceDir: jeecg-boot/jeecg-boot-base-common/src/main/java
+     sourceFile: org/jeecg/common/util/DateUtils.java
